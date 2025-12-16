@@ -52,7 +52,7 @@ print(f"\nModel Accuracy: {accuracy:.2f}")
 
 databaru=[[300,250,6.0]]
 preds=model.predict(databaru)
-# print(preds)
+
 pred_irit_boros= preds.tolist()
 print(f"Hasil Prediksi : {pred_irit_boros}")
 
