@@ -6,7 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-data_df = pd.read_excel("X:\Code\Tubes_Phyton_Kel4\Dataset\cars.xlsx")
+
+
+
 
 median_mpg = data_df['MPG_City'].median()
 data_df['Irit_Boros_Binary'] = np.where(data_df['MPG_City'] >= median_mpg, 1, 0)
