@@ -29,7 +29,7 @@ accuracy = accuracy_score(Y_test, Y_pred)
 
 print(f"Akurasi Model : {accuracy:.2f}")
 
-data_baru = [[300, 250, 6]]
+data_baru = [[300, 2500, 6]]
 hasil = model.predict(data_baru)
 
 print("Hasil Prediksi (1=Irit, 0=Boros):", hasil[0])
