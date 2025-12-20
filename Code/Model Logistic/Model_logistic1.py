@@ -10,12 +10,9 @@ X = df[['Horsepower', 'Weight', 'Cylinders']]
 y = df['Irit_Boros']
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=41
+    X, y, test_size=0.2, random_state=1
 )
-# random state 8 akurasi 0.90
-# random state 15 akurasi 0.91
-# random state 32 akurasi 0.92
-# random state 41 akurasi 0.93
+
 model = LogisticRegression(solver='liblinear')
 model.fit(X_train, y_train)
 
