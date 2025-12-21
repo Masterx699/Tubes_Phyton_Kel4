@@ -26,7 +26,7 @@ yang berisi spesifikasi mobil seperti :
 Model utama yang digunakan pada proyek ini adalah Logistic Regression dengan pembagian data menggunakan train-test split dan evaluasi model menggunakan akurasi yang berdasarkan confusion matrix.
 
 ## Fitur Yang Digunakan
-Berdasarkan scatter plot dan heatmap, korelasi terbanyak antara masing masing label dengan Miles Per Gallon adalah berat kendaraan, besar horsepower, dan jumlah silindernya dan ketiga label inilah yang akan dijadikan sebagai fitur.
+Berdasarkan scatter plot, korelasi terbanyak antara masing masing label dengan Miles Per Gallon adalah berat kendaraan, besar horsepower, dan jumlah silindernya dan ketiga label inilah yang akan dijadikan sebagai fitur.
 
 ## Visualisasi
 Visualisasi yang ditampilkan pada proyek ini adalah:
