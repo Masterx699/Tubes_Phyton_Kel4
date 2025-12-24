@@ -13,14 +13,15 @@ Proyek ini bertujuan untuk menganalisis dan memprediksi efisiensi bahan bakar mo
 Dataset yang digunakan berasal dari https://github.com/hananlu/basicPython/blob/master/Dataset/cars2.json
 
 yang berisi spesifikasi mobil seperti : 
-1. Jumlah silinder (`Cylinders`)
-2. Kapasitas mesin (`Displacement`)
-3. Tenaga mesin (`Horsepower`)
-4. Berat kendaraan (`Weight_in_lbs`)
-5. Akselerasi (`Acceleration`)
-6. Tahun produksi (`Year`)
-7. Asal kendaraan (`Origin`)
-8. Konsumsi bahan bakar dalam Miles Per Gallon (MPG) (`Miles_per_Gallon`)
+1. Nama mobil (`Name`)
+2. Jumlah silinder (`Cylinders`)
+3. Kapasitas mesin (`Displacement`)
+4. Tenaga mesin (`Horsepower`)
+5. Berat kendaraan (`Weight_in_lbs`)
+6. Akselerasi (`Acceleration`)
+7. Tahun produksi (`Year`)
+8. Asal kendaraan (`Origin`)
+9. Konsumsi bahan bakar dalam Miles Per Gallon (MPG) (`Miles_per_Gallon`)
 
 ## Machine Learning
 Model utama yang digunakan pada proyek ini adalah Logistic Regression dengan pembagian data menggunakan train-test split dan evaluasi model menggunakan akurasi yang berdasarkan confusion matrix.
