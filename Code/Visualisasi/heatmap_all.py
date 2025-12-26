@@ -9,13 +9,7 @@ df_numeric = df.select_dtypes(include=['int64', 'float64'])
 corr_matrix = df_numeric.corr()
 
 plt.figure(figsize=(10, 8))
-sns.heatmap(
-    corr_matrix,
-    annot=True,
-    fmt=".2f",
-    cmap='coolwarm',
-    linewidths=0.5
-)
+sns.heatmap(corr_matrix, annot=True, fmt=".2f", cmap='coolwarm', linewidths=0.5)
 
 plt.title("Heatmap Korelasi Antar Fitur Numerik")
 plt.tight_layout()
