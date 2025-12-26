@@ -24,23 +24,26 @@ yang berisi spesifikasi mobil seperti :
 9. Konsumsi bahan bakar dalam Miles Per Gallon (MPG) (`Miles_per_Gallon`)
 
 ## Machine Learning
-Model utama yang digunakan pada proyek ini adalah Logistic Regression dengan pembagian data menggunakan train-test split dan evaluasi model menggunakan akurasi yang berdasarkan confusion matrix.
+Model utama yang digunakan pada proyek ini adalah Logistic Regression dengan pembagian data menggunakan train-test split sedangkan evaluasi model menggunakan akurasi dan presisi irit yang berdasarkan confusion matrix.
 
 ## Fitur Yang Digunakan
-Berdasarkan scatter plot, korelasi terbanyak antara masing masing label dengan Miles Per Gallon adalah berat kendaraan, besar horsepower, dan jumlah silindernya dan ketiga label inilah yang akan dijadikan sebagai fitur.
+Berdasarkan scatter plot, korelasi terbanyak antara masing masing label dengan Miles Per Gallon adalah kapasitas mesin, berat kendaraan, dan horespowernya. Dari ketiga label inilah yang akan dijadikan sebagai fitur.
+
+## Label
+Label dibuat menggunakan median dari MPG dimana setiap data yang lebih besar dari median MPG akan diklasifikasikan sebagai irit dan data yang lebih kecil dari median MPG akan diklasifikasikan sebagai boros.
 
 ## Visualisasi
 Visualisasi yang ditampilkan pada proyek ini adalah:
 1. Perbandingan antara berat kendaraan dengan MPG
 2. Perbandingan antara kekuatan mesin dengan MPG
-3. Perbandingan antara banyak piston dengan MPG
+3. Perbandingan antara kapasitas mesin dengan MPG
 4. Distribusi kendaraan irit dan boros
 5. Confusion matrix
 
 ## Hasil Dan Kesimpulan
-1. Berat kendaraan dan jumlah piston memiliki pengaruh signifikan terhadap efisiensi bahan bakar.
-2. Model Logistic Regression mampu mengklasifikasikan mobil irit dan boros dengan performa yang baik.
-3. Berdasarkan hasil tersebut, kendaraan dengan berat yang ringan dan jumlah silinder lebih sedikit direkomendasikan sebagai pilihan yang lebih hemat bahan bakar dan ramah lingkungan.
+1. Kapasitas mesin dan berat kendaraan memiliki pengaruh signifikan terhadap efisiensi bahan bakar.
+2. Model Logistic Regression mampu mengklasifikasikan mobil irit dan boros dengan performa yang baik, sekitar 0.93 atau 93% untuk akurasi dan 0.94 atau 94% untuk presisi menjawab irit.
+3. Berdasarkan hasil tersebut, kendaraan dengan berat yang ringan dan kapasitas mesin lebih sedikit direkomendasikan sebagai pilihan yang lebih hemat bahan bakar dan ramah lingkungan.
 
 ## Coretan
 https://www.canva.com/design/DAG7mBzojS8/lrzYnMPsFRdp7nWtoJKuUQ/edit?utm_content=DAG7mBzojS8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
